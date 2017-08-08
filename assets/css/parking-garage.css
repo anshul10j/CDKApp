@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+    overflow:hidden;
+    margin: 0;
+}
+
+
+header{
+    height:50px;
+    font-size:28px;
+    line-height: 40px;
+    text-align: center;
+    color:white;
+    background-color: royalblue;
+}
+
+.main-container{
+    height:calc(100% - 60px);
+    margin:5px 0px;
+      position: relative;
+}
+
+.garage-list-container{
+    width: 40%;
+    overflow: scroll;
+    height:100%;
+    display:inline-block;
+}
+
+.map-container,.map-data-container{
+    display:inline-block;
+    width:59%;
+    height:100%;
+  
+    }
+.map-data-container{
+    width:100%; 
+}
+
+
+.garage-data-container{
+    border:1px solid gainsboro;
+    height:auto;
+     position: relative;
+    
+
+}
+
+.arrow-right::before {
+    position: absolute;
+   
+    content: "";
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    border-right: 0.2em solid grey;
+    border-top: 0.2em solid grey;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+    top: calc(50% - 0.3em);
+    right: 10px;
+}
+
+.garage-name{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.toggle-map-view{
+    display:none;
+}
+
+.togglegaragelistview{
+    width:100%;
+}
+
+.close-button{
+     position: absolute;
+     top: 5px;
+     right: 10px;
+     
+
+}
+.close-button:after{
+     display: inline-block;
+    content: "\00d7";
+    background: white;
+    border-radius: 24px;
+    z-index: 99999;
+    font-size: 30px;
+    width: 29px;
+    padding-left: 11px;
+}

@@ -1,0 +1,41 @@
+.gm-style-iw{
+     width: 100% !important;
+    top:19px !important;
+  left:23px !important;
+  
+}
+.iw-container{
+   width: 100%;
+   font-size:16px;
+   font-weight:500;
+  
+  
+}
+.iw-title{
+        background: royalblue;
+        height: 40px;
+        font-size: 16px;
+        line-height: 36px;
+        width: 100%;
+        text-align: center;
+}
+.iw-content{
+    width: 100%;
+    display: flex;
+  
+}
+.iw-long-content,.iw-short-content{
+      display: inline-block;
+      width: 48%;
+    min-width: 120px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.iw-long-image,.iw-short-image{
+        margin: 5px 0 5px 20px ;
+
+}
+
+
+
